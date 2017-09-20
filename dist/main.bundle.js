@@ -102,6 +102,7 @@ AddUserComponent = __decorate([
 
 
 var routes = [
+    { path: '', redirectTo: 'searchsubscriber', pathMatch: 'full' },
     { path: 'adduser', component: __WEBPACK_IMPORTED_MODULE_1__add_user_add_user_component__["a" /* AddUserComponent */] },
     { path: 'searchuser', component: __WEBPACK_IMPORTED_MODULE_2__search_user_search_user_component__["a" /* SearchUserComponent */] },
     { path: 'searchsubscriber',
