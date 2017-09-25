@@ -468,7 +468,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/dashboard/components/search-user/search-user.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\r\n    <div class=\"col-md-12\">\r\n        <!-- Tab panes -->\r\n        <div class=\"col-md-12 col-sm-12 col-xs-12 tab-wrapper\">\r\n            <div class=\"search-section\">\r\n                <form>\r\n                    <div class=\"col-md-9 col-sm-9 col-xs-12\">\r\n                        <input type=\"text\" class=\"form-control\" placeholder=\"Keyword\">\r\n                    </div>\r\n                    <div class=\"col-md-3 col-sm-3 col-xs-12 no-padding\">\r\n                        <a class=\"btn btn-lg btn-primary btn-block\" type=\"submit\" (click)=\"showList()\">Search</a>\r\n                    </div>\r\n                </form>\r\n                <div class=\"clear\"></div>\r\n            </div>\r\n            <div class=\"col-md-12\" *ngIf=\"showlist\">\r\n                <div class=\"search-section-result\">\r\n                    <div class=\"table-responsive\">\r\n                        <table class=\"table\">\r\n                            <tr class=\"heading\">\r\n                                <td>Name</td>\r\n                                <td>Mobile Number</td>\r\n                                <td>Email</td>\r\n                                <td>Status<span class=\"arrow-status\"><i class=\"fa fa-arrow-down\" aria-hidden=\"true\"></i></span></td>\r\n                                <td>View Profile</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Mufaddal ABCDEF ABCDEFGH</td>\r\n                                <td>+971502105952</td>\r\n                                <td>abcdef@abcd.com</td>\r\n                                <td>Active</td>\r\n                                <td><a>View</a></td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Mufaddal ABCDEF ABCDEFGH</td>\r\n                                <td>+971502105952</td>\r\n                                <td>abcdef@abcd.com</td>\r\n                                <td>Active</td>\r\n                                <td><a>View</a></td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Mufaddal ABCDEF ABCDEFGH</td>\r\n                                <td>+971502105952</td>\r\n                                <td>abcdef@abcd.com</td>\r\n                                <td>Active</td>\r\n                                <td><a>View</a></td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Mufaddal ABCDEF ABCDEFGH</td>\r\n                                <td>+971502105952</td>\r\n                                <td>abcdef@abcd.com</td>\r\n                                <td>Active</td>\r\n                                <td><a>View</a></td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Mufaddal ABCDEF ABCDEFGH</td>\r\n                                <td>+971502105952</td>\r\n                                <td>abcdef@abcd.com</td>\r\n                                <td>Active</td>\r\n                                <td><a>View</a></td>\r\n                            </tr>\r\n                        </table>\r\n                    </div>\r\n                    <!-- pagination -->\r\n                    <div class=\"pagination-bar\">\r\n                        <ul>\r\n                            <li><a href=\"#\">|<i class=\"fa fa-angle-left text-verticle\" aria-hidden=\"true\"></i></a></li>\r\n                            <li><a href=\"#\"><i class=\"fa fa-angle-left text-verticle\" aria-hidden=\"true\"></i></a></li>\r\n                            <li>Page<span>1</span>of 1</li>\r\n                            <li><a href=\"#\"><i class=\"fa fa-angle-right text-verticle\" aria-hidden=\"true\"></i></a></li>\r\n                            <li><a href=\"#\"><i class=\"fa fa-angle-right text-verticle\" aria-hidden=\"true\"></i>|</a></li>\r\n                        </ul>\r\n                        <div class=\"display-text\">Displaying 5 of 5</div>\r\n\r\n                    </div>\r\n                </div>\r\n                <div class=\"clear\"></div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"clear\"></div>\r\n</div>"
+module.exports = "<div class=\"container\">\r\n    <div class=\"col-md-12\">\r\n        <!-- Tab panes -->\r\n        <div class=\"col-md-12 col-sm-12 col-xs-12 tab-wrapper\">\r\n            <div class=\"search-section\">\r\n                <form>\r\n                    <div class=\"col-md-9 col-sm-9 col-xs-12\">\r\n                        <input type=\"text\" class=\"form-control\" placeholder=\"Keyword\">\r\n                    </div>\r\n                    <div class=\"col-md-3 col-sm-3 col-xs-12 no-padding\">\r\n                        <a class=\"btn btn-lg btn-primary btn-block\" type=\"submit\" (click)=\"showList()\">Search</a>\r\n                    </div>\r\n                </form>\r\n                <div class=\"clear\"></div>\r\n            </div>\r\n            <div class=\"col-md-12\" *ngIf=\"showlist\">\r\n                <div class=\"search-section-result\">\r\n                    <div class=\"table-responsive\">\r\n                        <table class=\"table\">\r\n                            <tr class=\"heading\">\r\n                                <td>Name</td>\r\n                                <td>Mobile Number</td>\r\n                                <td>Email</td>\r\n                                <td>Status<span class=\"arrow-status\"><i class=\"fa fa-arrow-down\" aria-hidden=\"true\"></i></span></td>\r\n                                <td>View Profile</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Mufaddal ABCDEF ABCDEFGH</td>\r\n                                <td>+971502105952</td>\r\n                                <td>abcdef@abcd.com</td>\r\n                                <td>Active</td>\r\n                                <td><a routerLink=\"/dashboard/updateuser/\">View</a></td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Mufaddal ABCDEF ABCDEFGH</td>\r\n                                <td>+971502105952</td>\r\n                                <td>abcdef@abcd.com</td>\r\n                                <td>Active</td>\r\n                                <td><a>View</a></td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Mufaddal ABCDEF ABCDEFGH</td>\r\n                                <td>+971502105952</td>\r\n                                <td>abcdef@abcd.com</td>\r\n                                <td>Active</td>\r\n                                <td><a>View</a></td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Mufaddal ABCDEF ABCDEFGH</td>\r\n                                <td>+971502105952</td>\r\n                                <td>abcdef@abcd.com</td>\r\n                                <td>Active</td>\r\n                                <td><a>View</a></td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Mufaddal ABCDEF ABCDEFGH</td>\r\n                                <td>+971502105952</td>\r\n                                <td>abcdef@abcd.com</td>\r\n                                <td>Active</td>\r\n                                <td><a>View</a></td>\r\n                            </tr>\r\n                        </table>\r\n                    </div>\r\n                    <!-- pagination -->\r\n                    <div class=\"pagination-bar\">\r\n                        <ul>\r\n                            <li><a href=\"#\">|<i class=\"fa fa-angle-left text-verticle\" aria-hidden=\"true\"></i></a></li>\r\n                            <li><a href=\"#\"><i class=\"fa fa-angle-left text-verticle\" aria-hidden=\"true\"></i></a></li>\r\n                            <li>Page<span>1</span>of 1</li>\r\n                            <li><a href=\"#\"><i class=\"fa fa-angle-right text-verticle\" aria-hidden=\"true\"></i></a></li>\r\n                            <li><a href=\"#\"><i class=\"fa fa-angle-right text-verticle\" aria-hidden=\"true\"></i>|</a></li>\r\n                        </ul>\r\n                        <div class=\"display-text\">Displaying 5 of 5</div>\r\n\r\n                    </div>\r\n                </div>\r\n                <div class=\"clear\"></div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"clear\"></div>\r\n</div>\r\n<router-outlet></router-outlet>"
 
 /***/ }),
 
@@ -573,6 +573,67 @@ TopNavComponent = __decorate([
 
 /***/ }),
 
+/***/ "../../../../../src/app/dashboard/components/updateuser/updateuser.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/dashboard/components/updateuser/updateuser.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "\n<div class=\"container\">\n\t<div class=\"col-md-12\">\n\t\t<!-- Tab panes -->\n\t\t<div class=\"col-md-12 col-sm-12 col-xs-12 tab-wrapper\">\n\t\t\t<div class=\"search-section1\">\n\t\t\t\t<form>\n\t\t\t\t\t<div class=\"col-md-12 col-sm-12 col-xs-12 form-margin-bottom\">\n\t \t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12 padding-right margin-res\">\n\t  \t\t\t\t\t<input type=\"text\" class=\"form-control\" placeholder=\"First Name\">\n\t \t\t\t\t\t</div>\n\t \t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12  padding-left margin-res\">\n\t  \t\t\t\t\t<input type=\"text\" class=\"form-control\" placeholder=\"Last Name\">\n\t \t\t\t\t\t</div>\n\t \t\t\t\t\t<div class=\"clear\"></div>\n\t \t\t\t\t</div>\n\t \t\t\t\t<div class=\"col-md-12 col-sm-12 col-xs-12 form-margin-bottom margin-res\">\n\t \t\t\t\t\t<div class=\"col-md-12 col-sm-12 col-xs-12 no-padding margin-res\">\n\t  \t\t\t\t\t<input type=\"text\" class=\"form-control\" placeholder=\"Email\">\n\t \t\t\t\t\t</div>\n\t \t\t\t\t\t<div class=\"clear\"></div>\n\t \t\t\t\t</div>\n\t \t\t\t\t<div class=\"col-md-12 col-sm-12 col-xs-12 form-margin-bottom\">\n\t \t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12 padding-right margin-res\">\n\t  \t\t\t\t\t<input type=\"text\" class=\"form-control\" placeholder=\"User Name\">\n\t \t\t\t\t\t</div>\n\t \t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12 padding-left margin-res\">\n\t  \t\t\t\t\t<input type=\"text\" class=\"form-control\" placeholder=\"Mobile No.\">\n\t \t\t\t\t\t</div>\n\t \t\t\t\t\t<div class=\"clear\"></div>\n\t \t\t\t\t</div>\n\t \t\t\t\t<!-- radio button -->\n\t \t\t\t\t<div class=\"col-md-12 col-sm-12 col-xs-12 margin-res\">\n\t \t\t\t\t\t<div class=\"form-check-section\">\n\t  \t\t\t\t\t<div class=\"text-check\">Notification Method</div>\n\t  \t\t\t\t\t<div class=\"form-check-section-sub\">\n\t   \t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12\">\n\t\t\t\t\t\t\t\t\t<input type=\"radio\" id=\"test1\" name=\"radio-group\" checked>\n\t\t\t\t\t\t\t\t\t<label for=\"test1\">Email</label>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12\">\n\t\t\t\t\t\t\t\t\t<input type=\"radio\" id=\"test2\" name=\"radio-group\" checked>\n\t\t\t\t\t\t\t\t\t<label for=\"test2\">Mobile Number</label>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"clear\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"clear\"></div>\n       \t\t\t</div>\n\t \t\t\t\t</div>\n\t \t\t\t\t<!-- checkbox -->\n\t \t\t\t\t<div class=\"col-md-12 col-sm-12 col-xs-12 margin-res\">\n\t \t\t\t\t\t<div class=\"form-check-section\">\n\t \t\t\t\t\t <div class=\"text-check\">Roles</div>\n\t\t\t\t\t\t \t<div class=\"form-check-section-sub\">\n\t  \t\t\t\t\t \t<div class=\"col-md-6 col-sm-6 col-xs-12 \">\n\t\t\t\t\t\t\t\t\t<ul class=\"unstyled centered checkbox-user\">\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<input class=\"styled-checkbox\" id=\"styled-checkbox-1\" type=\"checkbox\" value=\"value1\">\n\t\t\t\t\t\t\t\t\t\t\t<label for=\"styled-checkbox-1\">Supar Admin</label>\n\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12 \">\n\t\t\t\t\t\t\t\t\t<ul class=\"unstyled centered checkbox-user\">\n\t\t  \t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<input class=\"styled-checkbox\" id=\"styled-checkbox-2\" type=\"checkbox\" value=\"value1\">\n\t\t\t\t\t\t\t\t\t\t\t<label for=\"styled-checkbox-2\">Customer Service</label>\n\t\t  \t\t\t\t\t\t\t</li>\n\t\t  \t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12 \">\n\t\t\t\t\t\t\t\t\t<ul class=\"unstyled centered checkbox-user\">\n\t\t  \t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<input class=\"styled-checkbox\" id=\"styled-checkbox-3\" type=\"checkbox\" value=\"value1\">\n\t\t\t\t\t\t\t\t\t\t\t<label for=\"styled-checkbox-3\">PSPD Agent Upload</label>\n\t\t  \t\t\t\t\t\t\t</li>\n\t\t  \t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12 \">\n\t\t\t\t\t\t\t\t\t<ul class=\"unstyled centered checkbox-user\">\n\t\t  \t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<input class=\"styled-checkbox\" id=\"styled-checkbox-4\" type=\"checkbox\" value=\"value1\">\n\t\t\t\t\t\t\t\t\t\t\t<label for=\"styled-checkbox-4\">PSPD Agent Load</label>\n\t\t  \t\t\t\t\t\t\t</li>\n\t\t  \t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12 \">\n\t\t\t\t\t\t\t\t\t<ul class=\"unstyled centered checkbox-user\">\n\t\t  \t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<input class=\"styled-checkbox\" id=\"styled-checkbox-5\" type=\"checkbox\" value=\"value1\">\n\t\t\t\t\t\t\t\t\t\t\t<label for=\"styled-checkbox-5\">Call Center Agent</label>\n\t\t  \t\t\t\t\t\t\t</li>\n\t\t  \t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12 \">\n\t\t\t\t\t\t\t\t\t<ul class=\"unstyled centered checkbox-user\">\n\t\t  \t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<input class=\"styled-checkbox\" id=\"styled-checkbox-6\" type=\"checkbox\" value=\"value1\">\n\t\t\t\t\t\t\t\t\t\t\t<label for=\"styled-checkbox-6\">PSPD Agent Load</label>\n\t\t  \t\t\t\t\t\t\t</li>\n\t\t  \t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"clear\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"clear\"></div>\n\t\t\t\t\t\t</div>\n\t \t\t\t\t</div>\n\t \t\t\t\t<div class=\"add-user-btn\">\n\t \t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12 padding-right\">\n\t \t\t\t\t\t\t<button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Update User</button>\n\t \t\t\t\t\t</div>\n\t \t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-12 padding-left\">\n\t \t\t\t\t\t\t<button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Clear</button>\n\t \t\t\t\t\t</div>\n\t \t\t\t\t\t<div class=\"clear\"></div>\n\t \t\t\t\t</div>\n\t \t\t\t</form>\n\t \t\t<div class=\"clear\"></div>\n\t\t</div>\n\t</div>\n</div>\n<div class=\"clear\"></div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/dashboard/components/updateuser/updateuser.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UpdateuserComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var UpdateuserComponent = (function () {
+    function UpdateuserComponent() {
+    }
+    UpdateuserComponent.prototype.ngOnInit = function () {
+    };
+    return UpdateuserComponent;
+}());
+UpdateuserComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'app-updateuser',
+        template: __webpack_require__("../../../../../src/app/dashboard/components/updateuser/updateuser.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/dashboard/components/updateuser/updateuser.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], UpdateuserComponent);
+
+//# sourceMappingURL=updateuser.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/dashboard/dashboard-routing.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -589,12 +650,14 @@ TopNavComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_search_subscriber_user_profile_user_profile_component__ = __webpack_require__("../../../../../src/app/dashboard/components/search-subscriber/user-profile/user-profile.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_search_subscriber_transactions_transactions_component__ = __webpack_require__("../../../../../src/app/dashboard/components/search-subscriber/transactions/transactions.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_search_subscriber_credentails_credentails_component__ = __webpack_require__("../../../../../src/app/dashboard/components/search-subscriber/credentails/credentails.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_updateuser_updateuser_component__ = __webpack_require__("../../../../../src/app/dashboard/components/updateuser/updateuser.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -618,7 +681,8 @@ var routes = [
             { path: 'reports', component: __WEBPACK_IMPORTED_MODULE_6__components_reports_reports_component__["a" /* ReportsComponent */] },
             { path: 'profile', component: __WEBPACK_IMPORTED_MODULE_8__components_search_subscriber_user_profile_user_profile_component__["a" /* UserProfileComponent */] },
             { path: 'transactions', component: __WEBPACK_IMPORTED_MODULE_9__components_search_subscriber_transactions_transactions_component__["a" /* TransactionsComponent */] },
-            { path: 'credentials', component: __WEBPACK_IMPORTED_MODULE_10__components_search_subscriber_credentails_credentails_component__["a" /* CredentailsComponent */] }
+            { path: 'credentials', component: __WEBPACK_IMPORTED_MODULE_10__components_search_subscriber_credentails_credentails_component__["a" /* CredentailsComponent */] },
+            { path: 'updateuser', component: __WEBPACK_IMPORTED_MODULE_11__components_updateuser_updateuser_component__["a" /* UpdateuserComponent */] }
         ]
     }
 ];
@@ -719,12 +783,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_search_subscriber_transactions_transactions_component__ = __webpack_require__("../../../../../src/app/dashboard/components/search-subscriber/transactions/transactions.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_search_subscriber_credentails_credentails_component__ = __webpack_require__("../../../../../src/app/dashboard/components/search-subscriber/credentails/credentails.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__footer_footer_component__ = __webpack_require__("../../../../../src/app/dashboard/footer/footer.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_updateuser_updateuser_component__ = __webpack_require__("../../../../../src/app/dashboard/components/updateuser/updateuser.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -761,7 +827,8 @@ DashboardModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_10__components_search_subscriber_user_profile_user_profile_component__["a" /* UserProfileComponent */],
             __WEBPACK_IMPORTED_MODULE_11__components_search_subscriber_transactions_transactions_component__["a" /* TransactionsComponent */],
             __WEBPACK_IMPORTED_MODULE_12__components_search_subscriber_credentails_credentails_component__["a" /* CredentailsComponent */],
-            __WEBPACK_IMPORTED_MODULE_13__footer_footer_component__["a" /* FooterComponent */]
+            __WEBPACK_IMPORTED_MODULE_13__footer_footer_component__["a" /* FooterComponent */],
+            __WEBPACK_IMPORTED_MODULE_14__components_updateuser_updateuser_component__["a" /* UpdateuserComponent */]
         ]
     })
 ], DashboardModule);
