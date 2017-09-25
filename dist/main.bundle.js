@@ -45,6 +45,20 @@ module.exports = webpackAsyncContext;
 var routes = [
     { path: '', component: __WEBPACK_IMPORTED_MODULE_1__login_login_component__["a" /* LoginComponent */] },
     { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
+    { path: '**', redirectTo: 'dashboard' }
+    // { path: 'adduser', component: AddUserComponent },
+    // { path: 'searchuser', component: SearchUserComponent },
+    // { path: 'searchsubscriber', 
+    //   component: SearchSubscriberComponent,
+    //   children: [
+    //     { path: '', redirectTo: 'userprofile', pathMatch: 'full' },
+    //     { path: 'userprofile', component: UserProfileComponent },
+    //     { path: 'transactions', component: TransactionsComponent },
+    //     { path: 'credentials', component: CredentailsComponent },
+    //   ] 
+    // },
+    // { path: 'reports', component: ReportsComponent },
+    // { path: 'cashin', component: CashInComponent },
 ];
 var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(routes, { useHash: false });
 //# sourceMappingURL=app-routing.module.js.map
